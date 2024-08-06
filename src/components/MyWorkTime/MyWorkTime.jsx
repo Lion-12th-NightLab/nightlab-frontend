@@ -51,7 +51,7 @@ const MyWorkTime = ({ reportData }) => {
               <br />
               <span>
                 {totalComparison}시간 더 {moreOrLess}
-              </span>{" "}
+              </span>
               작업했어요
             </p>
           </MWT.UserData>
