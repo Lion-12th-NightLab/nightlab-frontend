@@ -24,7 +24,7 @@ export const User = styled.div`
     width: 148px;
     height: 200px;
 
-    margin-right: 24px;
+    margin-right: 16px;
   }
 `;
 
@@ -32,6 +32,8 @@ export const UserData = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  gap: 20px;
 
   ${({ theme }) => fontStyles(theme.fonts.Body_1_2)}
   color: ${({ theme }) => theme.colors.Gray_20};

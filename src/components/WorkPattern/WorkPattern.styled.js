@@ -28,6 +28,8 @@ export const CardContainer = styled.div`
   display: flex;
   justify-content: space-around;
 
+  gap: 12px;
+
   margin-top: 32px;
 `;
 
